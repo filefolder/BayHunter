@@ -17,8 +17,7 @@ import matplotlib.pyplot as plt
 plt.rcParams["axes.axisbelow"] = False
 from matplotlib.widgets import Button
 from matplotlib.collections import LineCollection
-#from mpl_toolkits.axes_grid.inset_locator import inset_axes
-from mpl_toolkits.axisartist.axislines import inset_axes
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
 from BayHunter.utils import SerializingContext
 from BayHunter import Model
